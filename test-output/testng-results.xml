@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5518" started-at="2022-04-17T12:46:05Z" finished-at="2022-04-17T12:46:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5518" started-at="2022-04-17T12:46:05Z" finished-at="2022-04-17T12:46:11Z">
+      <class name="Automation.RestAssured.GetListUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Automation.RestAssured.GetListUser@6767c1fc]" name="setup" is-config="true" duration-ms="747" started-at="2022-04-17T12:46:05Z" finished-at="2022-04-17T12:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyUserListIsNotEmpty()[pri:1, instance:Automation.RestAssured.GetListUser@6767c1fc]" name="VerifyUserListIsNotEmpty" duration-ms="3728" started-at="2022-04-17T12:46:06Z" finished-at="2022-04-17T12:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserListIsNotEmpty -->
+        <test-method status="PASS" signature="VerifyUserPagewiseDataList()[pri:2, instance:Automation.RestAssured.GetListUser@6767c1fc]" name="VerifyUserPagewiseDataList" duration-ms="700" started-at="2022-04-17T12:46:10Z" finished-at="2022-04-17T12:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserPagewiseDataList -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Automation.RestAssured.GetListUser@6767c1fc]" name="setup" is-config="true" duration-ms="0" started-at="2022-04-17T12:46:10Z" finished-at="2022-04-17T12:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Automation.RestAssured.GetListUser@6767c1fc]" name="setup" is-config="true" duration-ms="0" started-at="2022-04-17T12:46:10Z" finished-at="2022-04-17T12:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyTheLIstForAccessTotalPage()[pri:3, instance:Automation.RestAssured.GetListUser@6767c1fc]" name="VerifyTheLIstForAccessTotalPage" duration-ms="286" started-at="2022-04-17T12:46:10Z" finished-at="2022-04-17T12:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheLIstForAccessTotalPage -->
+      </class> <!-- Automation.RestAssured.GetListUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
